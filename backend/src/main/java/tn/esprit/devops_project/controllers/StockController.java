@@ -19,6 +19,7 @@ public class StockController {
         return stockService.addStock(stock);
     }
 
+
     @GetMapping("/stock/{id}")
     Stock retrieveStock(@PathVariable Long id){
         return stockService.retrieveStock(id);
