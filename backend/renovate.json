@@ -1,0 +1,5 @@
+{
+  "extends": ["config:base"],
+  "platform": "github",
+  "repositories": ["FirasHadjAmeur/5NIDS1-G3-Projet4"]
+}
